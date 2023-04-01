@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Norican&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #FCFCFC;
+  text-decoration: none;
+}
+
+ul li {
+  display: inherit;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 17em;
+}
+
+.titre_on_etais {
+  color: #F7073B;
+  font-size: 40px;
+}
+
+nav {
+  margin: 25px 0 0;
+  color: #FCFCFC;
+  background-color: #F7073B;
+  width: 100vw;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.liens_nav {
+  cursor: help;
+  padding: 20px;
+  color: #FCFCFC;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.liens_nav:hover {
+  background-color: #D1E000;
+  color: #F7073B;
+}
+
+.position_menu {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  background: linear-gradient(#D1E000, #06A533);
+  width: 100%;
+  padding: 3rem;
+  top: 4.2rem;
+  left: 50%;
+  flex-direction: column;
+  transform: translateX(-50%);
+}
+
+.flex_menu {
+  height: 100%;
+  margin: 0 7em;
+  display: flex;
+  flex-direction: column;
+}
+
+.titre_menu {
+  margin: 50px 0 10px;
+  color: #313432;
+  font-size: 25px;
+}
+
+.liens_menu {
+  line-height: 25px;
+  flex-direction: column;
+}
+
+/* HOVER */
+.menu {
+  display: none;
+}
+
+.deroulant:hover .menu {
+  display: flex;
+}
+
+/* OTHER */
+.titre {
+  margin-top: 25px;
+  font-family: 'Alkatra', cursive;
+  color: #313432;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+main {
+  margin: 0 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img_wcs {
+  margin: 30px 0;
+  width: 70vw;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 30px;
+  width: 70vw;
+}
+
+footer {
+  color: #FCFCFC;
+  background-color: #1A1A1A;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.eden_school {
+  width: 130px;
+  margin-bottom: 15px;
+}
